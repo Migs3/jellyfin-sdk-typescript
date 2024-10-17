@@ -246,6 +246,12 @@ export interface UserPolicy {
     'MaxActiveSessions'?: number;
     /**
      * 
+     * @type {number}
+     * @memberof UserPolicy
+     */
+    'MaxActiveStreams'?: number;
+    /**
+     * 
      * @type {boolean}
      * @memberof UserPolicy
      */
